@@ -73,3 +73,21 @@
 	- ECC0/1/2:
 
 		receive position error datas.
+
+- Smart Speed registers(25MHZ)
+
+	ThPass: eg. 600
+	ThFail: eg. 16001
+	ThAdd: 0/1 (0: sub, 1: add)
+	ThMs: 10
+	ThInit: 16001
+	ThTo(timeout): 55000
+
+	When nonce is right, init +/- pass. But nonce is wrong, init +/- fail.
+	If timeout value reach, init +/- 10.
+	When init > 2 ^ 16, core change in PLL.
+
+- RO Ctrl/PVT PS
+
+	RO Ctrl: ro_sel: 16 channels
+	ROData: RO_cnt1[31:16], RO_cnt0[15:0]
