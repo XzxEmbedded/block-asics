@@ -56,6 +56,12 @@
 
 		SpdSetup[23:16]: setting spd pll asic count.
 
+	- CFG:
+
+		Mask: Value range(24 - 32)
+		2 ^ (24 - 32) * 1 / 25 (25MHZ): Generate nonce time
+
+
 - PLL STS registers
 
 	- PllChgT:
