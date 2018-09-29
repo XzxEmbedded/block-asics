@@ -55,6 +55,7 @@
 	- H2LTime0:
 
 		SpdSetup[23:16]: setting spd pll asic count.
+		TaskHold[11:8]/TaskSetup[7:0]: reduce nonce duplication
 
 	- CFG:
 
