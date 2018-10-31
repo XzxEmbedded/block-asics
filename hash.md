@@ -1,5 +1,8 @@
 # Hash256 ASIC
 
+## Jamlink speed
+freq = 50 / ((set_value + 1) * 2)
+
 ## Common Registers
 
 - Work registers
